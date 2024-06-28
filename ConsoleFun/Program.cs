@@ -45,7 +45,7 @@ namespace ConsoleFun
                     if (outcome == 0)
                     {
                         int damage = rand.Next(5, 50);
-                        Console.WriteLine("That " + animal + " fucked you up. You took " + damage + " damage.");
+                        Console.WriteLine("That " + animal + " messed you up. You took " + damage + " damage.");
                         player.takeDamage(damage);
                         pressEnter();
                     } else
